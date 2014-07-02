@@ -11,4 +11,4 @@ RUN pip install feedparser
 
 ADD . /src
 
-RUN ["python","redmineIRCBot.py"]
+RUN ["python","/src/redmineIRCBot.py"]
